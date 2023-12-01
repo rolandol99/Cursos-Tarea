@@ -1,0 +1,16 @@
+{
+    "name": "rlpc/cursos",
+    "description": "cursos",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Rlpc\\Cursos\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "setasign/fpdf": "^1.8",
+        "dompdf/dompdf": "dev-master"
+    }
+}
